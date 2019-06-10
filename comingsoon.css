@@ -1,0 +1,168 @@
+body {
+    background-image: url(https://data.whicdn.com/images/146080025/large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+    font-size:44px;
+    font-family: 'Fjalla One', sans-serif;
+}
+ p {
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+ }
+
+ .box {
+     height: 125px;
+     width: 25%;
+     border: 3px solid white;
+     margin: .15%;
+     
+    
+ }
+
+ .box .number{
+     color: white;
+     font-size: 2.5em;
+     text-align: center;
+     margin-top: 20px;
+     font-family: 'Fjalla One', sans-serif;
+ }
+
+ .box .prop {
+     color: white;
+     font-size: 1.5em;
+     text-align: center;
+     font-family: 'Pacifico', cursive;
+ }
+ .boxContainer {
+     display: flex;
+     flex-direction: row;
+     margin: 100px 20px;
+ }
+
+
+
+ @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 343px;
+    height: 333px;
+    padding:30px;
+ 
+
+    overflow: hidden; 
+}
+
+textarea{
+	  
+    width: 276px;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.4);
+  background-color: transparent;
+   
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+  
+  background-color: transparent;
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+	  padding-left:20px;
+}
+
+input.email {
+	  padding-left:20px;
+}
+
+input.message {
+	  padding-left:45px;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+
+input:focus, textarea:focus { 
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden;
+}
+
+.btn {
+	  width: 50px;
+	  height: 50px;
+border: none;
+  
+   background-image: url(https://purepng.com/public/uploads/large/51502308190ywg3xhop2e1u94ebcskyi25hrgeulctsuiw8g47ix8ok1w14mfxodwoq2gi80jzib2nrc9wanirro49nakdq3pgz2qcufshojrjc.png);
+   background-size: cover;
+	  float:right;
+    padding:0px;
+    margin:0px;
+    font-size:30px;
+}
+.btn:hover
+{
+background-image: url(https://freepngimg.com/thumb/kitten/11-2-kitten-png-image.png);
+background-size: cover;
+  transition:300ms ease-in-out;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+}
+
+#spam {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
